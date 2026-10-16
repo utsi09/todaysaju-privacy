@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오늘의사주 계정 및 데이터 삭제</title>
+<style>
+  body { font-family: -apple-system, "Malgun Gothic", "Noto Sans KR", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #1A1A1A; background: #F7F4EE; }
+  h1 { font-size: 26px; } h2 { font-size: 18px; margin-top: 32px; }
+  table { border-collapse: collapse; width: 100%; } td, th { border: 1px solid #E4DFD6; padding: 8px; text-align: left; font-size: 14px; }
+  code { background: #fff; padding: 2px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>오늘의사주 — 계정 및 데이터 삭제 요청</h1>
+<p>앱: <strong>오늘의사주</strong> (개발자: Tdoubleu, 패키지 com.tdoubleu.matchum)</p>
+
+<h2>1. 기기에 저장된 데이터 삭제 (앱 안에서 바로)</h2>
+<ol>
+  <li>앱 오늘 화면 오른쪽 위 <strong>내 정보</strong></li>
+  <li><strong>처음부터 다시 입력</strong> 누르기</li>
+</ol>
+<p>생년월일시, 매일의 예측과 체크 기록, 리포트 글이 즉시 삭제됩니다. 앱을 삭제해도 같은 효과입니다.</p>
+
+<h2>2. 서버에 남은 계정 데이터 삭제 (이메일 요청)</h2>
+<p>구글 로그인을 했거나 구독을 한 경우 서버에 아래 정보가 남아 있을 수 있습니다. 삭제를 원하면 이메일을 보내 주세요.</p>
+<p>받는 곳: <strong>utsi0411@gmail.com</strong><br>제목: <code>오늘의사주 삭제 요청</code><br>본문: 로그인에 쓴 구글 이메일 주소 (로그인 안 했으면 "기기 데이터만" 이라고 적어 주세요)</p>
+<p><strong>7일 안에</strong> 삭제하고 회신합니다.</p>
+
+<h2>3. 삭제되는 것 / 남는 것</h2>
+<table>
+<tr><th>데이터</th><th>처리</th></tr>
+<tr><td>구글 계정 식별자, 이메일, 로그인 세션</td><td>즉시 삭제</td></tr>
+<tr><td>질문 횟수 카운터</td><td>36시간 안에 자동 만료 (별도 요청 불필요)</td></tr>
+<tr><td>구독 기록(결제 토큰)</td><td>즉시 삭제. 구독 자체 해지는 Google Play 구독 관리에서</td></tr>
+<tr><td>AI 문장 캐시(생년월일이 아닌 계산 결과의 해시 기준)</td><td>개인 식별 불가 정보라 최대 180일 뒤 자동 만료</td></tr>
+<tr><td>질문 텍스트</td><td>저장하지 않음</td></tr>
+</table>
+
+<p style="margin-top:32px"><a href="./">개인정보처리방침으로</a></p>
+</body>
+</html>
